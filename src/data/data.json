@@ -1,0 +1,32 @@
+[
+  {
+    "start": "Madrid",
+    "end": "Barcelona",
+    "seat": "45B",
+    "type": "train",
+    "reference": "78A"
+  },
+  {
+    "start": "Stockholm",
+    "end": "New York JFK",
+    "type": "flight",
+    "reference": "SK22",
+    "gate": "22",
+    "seat": "7B",
+    "baggage": "auto"
+  },
+  {
+    "start": "Gerona Airport",
+    "end": "Stockholm",
+    "type": "flight",
+    "reference": "SK455",
+    "gate": "45B",
+    "seat": "3A",
+    "baggage": "334"
+  },
+  {
+    "type": "airport bus",
+    "start": "Barcelona",
+    "end": "Gerona Airport"
+  }
+]
