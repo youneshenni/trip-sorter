@@ -29,7 +29,7 @@ export default class Cards {
     this.cards.push(card);
     const newCards = this.toJSON();
     // Write to data.json file
-    writeFileSync(join(__dirname, "../data/data.json"), newCards);
+    writeFileSync(join(__dirname, "../../data.json"), newCards);
   }
 
   // eslint-disable-next-line @typescript-eslint/naming-convention
@@ -85,6 +85,10 @@ export default class Cards {
 
     // Cast: The previous loop cannot give an undefined value
     return sortedCards;
+  }
+
+  getVerbs() {
+    return this.cards.map((card) => card.toString());
   }
 }
 

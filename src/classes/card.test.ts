@@ -1,5 +1,5 @@
 import Cards, { type Card } from "./card";
-import data from "../data/data.json";
+import data from "../../data.json";
 import getData from "../data";
 
 const testData = [

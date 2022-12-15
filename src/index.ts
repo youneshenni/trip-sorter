@@ -1,3 +1,1 @@
-import getData from "./data";
-
-const data = getData();
+export { run } from "@oclif/core";
